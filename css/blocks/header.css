@@ -53,27 +53,3 @@
 .header-login a:hover {
     color: #01996D;
 }
-
-.btn, a.btn {
-    display: inline-block;
-    padding-left: 50px;
-    padding-right: 50px;
-    background-color: #01996D;
-    width: 183px;
-    height: 51px;
-    /* line-height: 51px; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 400;
-    border-radius: 4px;
-    transition: opacity 0.2s ease;
-
-}
-
-.btn:hover, a.btn:hover {
-    opacity: 0.8;
-    color: #fff;
-}
