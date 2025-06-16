@@ -13,6 +13,7 @@
      <link rel="stylesheet" href="./css/blocks/how-it-works.css">
      <link rel="stylesheet" href="./css/blocks/story.css">
      <link rel="stylesheet" href="./css/blocks/btn.css">
+     <link rel="stylesheet" href="./css/blocks/product.css">
     <!-- Fonts -->
     <link rel="stylesheet" href="./css/fonts/Lato/stylesheet.css">
     <link rel="stylesheet" href="./css/fonts/Georgia/stylesheet.css">
@@ -78,8 +79,8 @@
                             </p>
                         </div>
 
-                        <div class="step-img-wrapper">
-                        <img class="step-img" src="./img/steps/01.jpg" alt="step img">
+                        <div class="step-img-wrapper">     
+                            <img class="step-img" src="./img/steps/01.jpg" alt="step img">
                         </div>
                     </div>
                     <!-- //step01 -->
@@ -123,8 +124,8 @@
         </section>
 
 
-        <section class="story">
-            <div class="container">
+        <section class="story none">
+            <div class="container container-wide">
                 <div class="story-row">
                     <div class="story-content">
                         <div class="story-heading">Let's hear about Kayla's success story</div>
@@ -135,13 +136,61 @@
                             <a href="#" class="btn btn-big">Let's get started</a>
                         </div>
                     </div>
-                    <div class="story-video">VIDEO</div>
+                    <div class="story-video">
+                        <div class="story-video-overlay">
+                            <button class="story-video-btn">
+                                <img src="./img/story/play-white.svg" alt="Play">
+                            </button>
+                        </div>
+                        <img src="./img/story/video-cover.jpg" alt="Video" class="story-video-object">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="product">
+            <div class="container card-container">
+                <div class="product-row">
+                    <div class="product-img">
+                        <img src="./img/product/photo.jpg" class="product-img-photo" alt="photo">
+                    </div>
+                    <div class="product-content">
+                        <h2 class="product-title">Our product</h2>
+                        <h3 class="product-subtitle">You tell us your stress, We make your diary</h3>
+                        <div class="product-text">
+                            <p>
+                                Everyone experiences it, and in different ways.
+                            </p>
+                            <p>
+                                Let Alivio guide you, in a personalized journal experience, to overcome your stress.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-title">Customized For</div>
+
+                        <div id="line"><hr /></div>
+
+                        
+                        
+                        <div class="card-img">
+                            <img src="./img/product/card-photo.jpg" class="card-img-photo" alt="card photo">
+                        </div>
+                        <div class="name">Mikayla</div>
+                        <div class="card-subtitle">Your custom contents</div>
+                        <div class="card-list">
+                            <ul>
+                                <li>Understand Your Stress</li>
+                                <li>Anger Management</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
 
 
         </section>
-
 
     </main>
 

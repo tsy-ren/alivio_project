@@ -33,3 +33,7 @@ body {
 }
 
 /* Grid */
+
+.container-wide {
+    width: 1536px;
+}
