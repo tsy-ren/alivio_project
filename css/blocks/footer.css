@@ -1,0 +1,37 @@
+.footer {
+    background-color: #245852;
+    padding-top: 104.76px;
+    padding-bottom: 144px;
+
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+.footer-nav {
+    margin-top: 74.52px;
+
+}
+
+.footer-nav li + li {
+    margin-top: 60px;
+}
+
+.footer-nav a {
+    color: #fff;
+    font-family: 'Lato';
+    font-weight: 600;
+    line-height: auto;
+    font-size: 25px;
+    transition: color 0.3s ease;
+
+
+}
+
+.footer-nav a:hover {
+    color: #000;
+}
